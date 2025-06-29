@@ -1,4 +1,4 @@
-# Yield curve modeling
+# Yield Curve Modeling
 
 #### Overview
 Interest rate term structure modeling is of fundamental importance both to financial market players and to monetary policy makers. Broadly, yield curve modeling can be classified in two categories: those models that do not impose no-arbitrage restrictions and those that do. These approaches differ in their construction. In the former group, the factor loadings depend only on a decay parameter usually called “exponential decay parameter”. In the latter group, the factor loadings result from imposing no-arbitrage restrictions across bonds of different maturities. However, both groups of model assume that the yields can be expressed as affine equations of a reduced number of unobserved factors. Their variability completely explains that of the yields. 
@@ -20,6 +20,4 @@ Diebold, Rudebusch and Borag Aruoba (2006) elaborated an extension to the DNS mo
 <img width="512" alt="image" src="https://github.com/user-attachments/assets/5eca42c1-5bf2-4372-8d93-b88f8caf4ebd" />
 
 Litterman and Scheinkman (1991) showed that a three factor PCA model of the term structure fits the data in a remarkable way and is useful for hedging. Following these attemps, BOFA's approach consists of a two-step process. Firt, they model each interest rate using PCA, which explains more than 95% of total variability. Then, they model the first two PCA factors of each yield with global and macro variables. 
-
-
 

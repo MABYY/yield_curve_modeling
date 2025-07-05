@@ -19,6 +19,6 @@ Diebold, Rudebusch and Borag Aruoba (2006) elaborated an extension to the DNS mo
 <img width="350" alt="image" src="https://github.com/user-attachments/assets/d7290b07-4723-4366-966f-b9aa3c9cd8bc" />
 <img width="512" alt="image" src="https://github.com/user-attachments/assets/5eca42c1-5bf2-4372-8d93-b88f8caf4ebd" />
 
-Litterman and Scheinkman (1991) showed that a three factor PCA model of the term structure fits the data in a remarkable way and is useful for hedging. Following these attemps, BOFA's approach consists of a two-step process. Firt, they model each interest rate using PCA, which explains more than 95% of total variability. Then, they project the first two PCA factors on observable variables.  This step suggests what determines each country’s yield curve at any given point in time. Domestic price inflation and economic growth are two natural candidates. 
+Litterman and Scheinkman (1991) showed that a three factor PCA model of the term structure fits the data in a remarkable way and is useful for hedging. Following these attemps, BOFA's approach consists of a two-step process. Firt, they model each interest rate using PCA, which explains more than 95% of total variability. Then, they project the first two PCA factors on observable variables. Finally, they create a trading rule using the estimated model. 
 
 
